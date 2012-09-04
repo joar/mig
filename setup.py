@@ -20,9 +20,16 @@ import os
 
 READMEFILE = 'README.rst'
 
+long_desc = None
+
+try:
+    long_desc = open(READMEFILE).read()
+except:
+    print('ERROR: Can\'t generate long description')
+
 setup(
         name='mig',
-        version='0.0.1',
+        version='0.0.3',
         packages=find_packages(),
         install_requires=[
             'setuptools',
@@ -30,4 +37,4 @@ setup(
             'sqlalchemy-migrate'],
         author='mig contributors',
         author_email='joar@talka.tv',
-        long_description=open(READMEFILE).read())
+        long_description=long_desc)
