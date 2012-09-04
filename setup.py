@@ -37,4 +37,5 @@ setup(
             'sqlalchemy-migrate'],
         author='mig contributors',
         author_email='joar@talka.tv',
+        description='SQLAlchemy migrations',
         long_description=long_desc)
