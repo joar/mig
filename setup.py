@@ -29,7 +29,7 @@ except:
 
 setup(
         name='mig',
-        version='0.0.3',
+        version='0.0.4',
         packages=find_packages(),
         install_requires=[
             'setuptools',
@@ -38,4 +38,5 @@ setup(
         author='mig contributors',
         author_email='joar@talka.tv',
         description='SQLAlchemy migrations',
+        url='https://github.com/jwandborg/mig/',
         long_description=long_desc)
