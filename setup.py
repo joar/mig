@@ -38,7 +38,7 @@ setup(
         author='mig contributors',
         author_email='joar@talka.tv',
         description='SQLAlchemy migrations',
-        url='https://github.com/jwandborg/mig/',
+        url='https://github.com/joar/mig/',
         long_description=long_desc,
         classifiers=[
             'License :: OSI Approved :: Apache Software License',
